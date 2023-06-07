@@ -59,7 +59,7 @@ const createUrl = async (req, res) => {
 
             return res.status(201).json({
                 status: true,
-                msg: 'Short url created',
+                msg: 'Short url already available',
                 data: {
                     shortUrl: url.shortUrl
                 }   
